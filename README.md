@@ -1,4 +1,5 @@
-This program implements a shell to allow executing some modification / query commands on a file system. It uses the Composite, Command, Singleton and Factory desing patterns.
+Shell implementation which allows executing modification / query commands on a file system.
+Design patterns used: Composite, Command, Singleton and Factory.
 
 Commands:
 
@@ -21,4 +22,4 @@ Commands:
   - grep “< regex >”
  
  
-Note: the paths for ls (without -R), rm , touch și mkdir can have "*", "." or "..". 
+Note: the paths for ls (without -R), rm , touch and mkdir can have "*", "." or "..". 
